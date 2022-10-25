@@ -1,0 +1,55 @@
+h1{
+    color:#FFFFFF;
+}
+
+@media all and (max-width:40em){
+    .microphoneTestGroup {
+        font-size:0.8em;
+    }
+}
+
+.microphoneTestGroup {
+    margin: 100px;
+    display: block;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+div#text-help {
+    text-align: center;
+    transition: opacity 1s 0.3s;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+div#audio-widget {
+    transition: opacity 1s 0.3s;
+}
+
+div#audio-widget > div {
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+canvas#audio-visual {
+    max-width: 90vw;
+    max-height: 25vh;
+    width: 512px;
+    height: 300px;
+}
+
+button#play {
+    font-size: 2rem;
+    color: white;
+    background: green;
+    font-weight: bold;
+    padding: 0.5rem 0.75rem;
+    border: none;
+    border-radius: 0.1rem;
+    transition: background 0.3s, opacity 1s 0.3s;
+}
+
+button#play:hover {
+    box-shadow: inset 0 0 2px white, 0 0 2px white;
+    cursor: pointer;
+}

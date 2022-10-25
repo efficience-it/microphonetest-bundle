@@ -1,0 +1,21 @@
+{
+    "name": "efficience-it/microphonetest-bundle",
+    "description": "Microphone test",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "EfficienceIt\\MicrophoneTestBundle\\": "/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Efficience IT"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "ext-json": "*",
+        "ext-openssl": "*"
+    }
+}
