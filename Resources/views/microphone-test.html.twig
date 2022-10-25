@@ -1,0 +1,25 @@
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('bundles/microphonetest/css/mic-test.css') }}">
+{% endblock %}
+
+{% block body %}
+    <div class="microphoneTestGroup">
+        <div id="text-help"></div>
+        <div id="audio-widget">
+            <div id="visual">
+                <canvas id="audio-visual"></canvas>
+            </div>
+            <br>
+            <div id="play-button">
+                <button id="play">
+                    START THE MICROPHONE TEST
+                </button>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block javascripts %}
+    <script type="text/javascript" src="{{ asset('bundles/microphonetest/js/mic-test.js') }}"></script>
+{% endblock %}
